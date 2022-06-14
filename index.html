@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Finder</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" type="text/css" href="./carousel.css"/>
+    <link rel="stylesheet" type="text/css" href="./style2.css"/>
+    <script defer src="./jwt.js"></script>
+    <script defer src="./validateform.js"></script>
+    <script defer src="./toggleEye.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div class="name">
+            <span class="game">GAME</span><span class="finder"><strong>FINDER</strong></span>
+        </div>
+    </div>
+    <div class="form">
+        <form>
+            <h2 class="wlc">Welcome! Log in or register</h2>
+            <h3 class="lgin">Log in to find the games you're looking for!</h3>
+            <input id="email"  name="email" type="email" placeholder="Email">
+            <input id="password" name="password" type="password" placeholder="Password" />
+            <i class="bi bi-eye-slash" id="togglePassword"></i>
+            <br>
+            <div class="checkbox-container">
+                <input type="checkbox" id="checkb" checked="checked">
+                <span class="mark"></span>
+            </div>
+            <label for="rememberMe">Remember me</label>
+            <onclick="lsRememberMe()">
+            <a class="forgot" href="forgot">Forgot password?</a>
+            <button type="submit" class="btn"><a class="b" href="./page.html">Log in</a></button>
+            <label for="registered">Not registered yet?</label>
+            <a class="register" href="forgot">Register now</a>
+            <hr class="line1">
+            <p class="or">or</p>
+            <hr class="line2">
+            <button class="btn1"><a class="facebook" href="#">Log in with Facebook</a><img class="fpic" src="./img/Vectorfacebook.svg" alt="LogoFacebook"></button>
+            <button class="btn2"><a class="twitter" href="#">Log in with Twitter</a><img class="tpic" src="./img/VectorTwitter.svg" alt="LogoTwitter"></button>
+            <button class="btn3"><a class="google" href="#">Log in with Google</a><img class="gpic" src="./img/Vectorgoogle.svg" alt="LogoGoogle"></button>
+        </form>
+    </div>
+    <div class="carousel">
+        <input type="radio" id="carousel-1" name="carousel[]" >
+        <input type="radio" id="carousel-2" name="carousel[]">
+        <input type="radio" id="carousel-3" name="carousel[]">
+        <input type="radio" id="carousel-4" name="carousel[]">
+        <input type="radio" id="carousel-5" name="carousel[]">
+        <ul class="carousel__items">
+            <li class="carousel__item"><img src="./img/alexey-savchenko-k4Akpt5-Sfk-unsplash.jpg" alt=""></li>
+            <li class="carousel__item"><img src="./img/carl-raw-m3hn2Kn5Bns-unsplash.jpg" alt=""></li>
+            <li class="carousel__item"><img src="./img/florian-olivo-Mf23RF8xArY-unsplash.jpg" alt=""></li>
+            <li class="carousel__item"><img src="./img/glenn-carstens-peters-0woyPEJQ7jc-unsplash.jpg" alt=""></li>
+            <li class="carousel__item"><img src="./img/mateo-nCU4yq5xDEQ-unsplash.jpg" alt=""></li>
+        </ul>
+        <div class="carousel__prev">
+            <label for="carousel-1"></label>
+            <label for="carousel-2"></label>
+            <label for="carousel-3"></label>
+            <label for="carousel-4"></label>
+            <label for="carousel-5"></label>
+        </div>
+        <div class="carousel__next">
+        <label for="carousel-1"></label>
+        <label for="carousel-2"></label>
+        <label for="carousel-3"></label>
+        <label for="carousel-4"></label>
+        <label for="carousel-5"></label>
+        </div>
+        <div class="carousel__nav">
+        <label for="carousel-1"></label>
+        <label for="carousel-2"></label>
+        <label for="carousel-3"></label>
+        <label for="carousel-4"></label>
+        <label for="carousel-5"></label>
+        <img class="bgnav" src="./img/Rectangle 24rec.svg">
+        </div>
+    </div>
+</body>
+</html>

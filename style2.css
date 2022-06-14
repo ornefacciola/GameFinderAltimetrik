@@ -1,0 +1,745 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Anek+Odia:wght@100;300&family=Beau+Rivage&family=Bebas+Neue&family=Exo:wght@200;700&family=Lobster&family=Maven+Pro&family=Montserrat:wght@100;400&family=Noto+Serif:wght@700&family=Open+Sans:wght@300&family=Poppins:wght@200&family=Raleway&family=Rubik:ital,wght@1,300&family=Shadows+Into+Light&family=Source+Serif+Pro:ital@1&family=Water+Brush&display=swap');
+
+.body {
+    background: #fcfcfc;
+    margin: 0; 
+    height:100%;
+    width:100%;
+}
+.switch{
+    position:absolute;
+    z-index: 2;
+
+}
+.container {
+    width: 1440px;
+    min-width: 100%;
+    margin: 50px auto;
+}
+.name{
+    font-family: 'Exo', sans-serif;
+    font-size: 4em;
+    margin: 12;
+    position: absolute;
+    top:30px;
+    left: 90px;
+    z-index: 3;
+}
+.game{
+    font-family: 'Exo', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    color: #fff;
+    width: 293.54px;
+    height: 37.46px;
+    top:14.27px;
+    left: 14.23px;
+}
+.finder{
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    font-style: italic;
+}
+.name{
+    font-family: 'Exo', sans-serif;
+    font-size: 4em;
+    margin: 12;
+    position: absolute;
+    top:30px;
+    left: 90px;
+    z-index: 3;
+}
+  
+*{
+    box-sizing: border-box;
+}
+.form{
+    width: 488px;
+    height:732px;
+    background: rgba(0,0,0,0.8);
+    position:absolute;
+    top: 15%;
+    left:60%;
+    border-radius: 14px;
+    padding: 25px;
+    z-index:2;
+}
+
+input[type=email] {
+    width: 83%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: 'Exo';
+    font-weight:400;
+    font-size: 15px;
+    border-radius: 4px;
+    position:absolute;
+    top: 135px;
+    left:40px;
+}
+input[type=password]{
+    width: 83%;
+    height:7%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: 'Exo';
+    font-weight:400;
+    font-size: 15px;
+    border-radius: 4px;
+    position:absolute;
+    top: 213px;
+    left:40px;
+}
+label[for=rememberMe]{
+    top: 290px;
+    left:77px;
+    height:15%;
+    width:68%;
+    position:absolute;
+    color:#fff;
+    font-family: 'Exo';
+}
+.img{
+    position:absolute;
+    width: 27px;
+    height: 21px;
+    top: 33%;
+    left:83%;
+}
+form i {
+    margin-left: -31px;
+    cursor: pointer;
+    position:absolute;
+    top:32.5%;
+    left:91%;
+    height:50px;
+    width:50px;
+    color:green;
+}
+
+#checkb {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background:transparent;
+    color:rgb(236, 236, 236);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    position: relative;
+    left: 4px;
+    top: 4px;
+    border: solid white;
+    border-radius: 4px;
+    border-width: 1.8px 1.8px 1.8px 1.8px;
+}
+
+
+#checkb:checked {
+    background-image: url(./img/Vectoractualtick.svg);
+    background-size: 18px;
+    background-color: #36B972;
+    width: 20px;
+    height: 20px;
+}
+
+.checkbox-container {
+    position: absolute;
+    display: inline-block;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    top:265px;
+    left:16px;
+    overflow: hidden;
+}
+.mark:after {
+    left: 8px;
+    bottom: 5px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.wlc{
+    font-family: 'Exo';
+    font-weight:700;
+    font-size: 1.4em;
+    line-height: 26.58px;
+    color:#fff;
+    top: 48px;
+    left:101px;
+    position:absolute;
+    
+  }
+  .lgin{
+    font-family: 'Exo';
+    font-weight:400;
+    font-size: 1.1em;
+    line-height: 21.26px;
+    color:#fff;
+    top: 88px;
+    left:69px;
+    position:absolute;
+  }
+  .btn{
+    border:none;
+    cursor:pointer;
+    width: 83%;
+    height:7%;
+    top:338px;
+    left:41px;
+    position:absolute;
+    border-radius: 6px;
+    background-color: #4CC986;
+  }
+.b{
+    text-decoration: none;
+    color:#fff;
+    font-family: 'Exo';
+    font-weight: 700;
+}
+label[for=registered]{
+    top: 417px;
+    left:111px;
+    height:15%;
+    width:68%;
+    position:absolute;
+    color:#fff;
+    font-family: 'Open Sans';
+}
+.register{
+    top: 417px;
+    left:259px;
+    position:absolute;
+    color:#5FE19B;
+    font-family: 'Open Sans';
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.fpic {
+    position: absolute;
+    top:14px;
+    left:94px;
+    height:20px;
+
+}
+.tpic {
+    position: absolute;
+    top:14px;
+    left:94px;
+    height:20px;
+
+}
+.gpic {
+    position: absolute;
+    top:14px;
+    left:94px;
+    height:20px;
+}
+.facebook{
+    text-decoration: none;
+    color:#fff;
+    font-family: 'Exo';
+    font-weight: 700;
+    position:absolute;
+    top: 30%;
+    left:34%;
+    font-size: 1.2em;
+
+}
+.twitter{
+    text-decoration: none;
+    color:#fff;
+    font-family: 'Exo';
+    font-weight: 700;
+    position:absolute;
+    top: 30%;
+    left:34%;
+    font-size: 1.2em;
+}
+.google{
+    text-decoration: none;
+    color:#fff;
+    font-family: 'Exo';
+    font-weight: 700;
+    position:absolute;
+    top: 30%;
+    left:34%;
+    font-size:1.2em;
+}
+.btn1{
+    cursor:pointer;
+    width:83%;
+    top:514px;
+    left:42px;
+    position:absolute;
+    text-decoration: none;
+    border-style:solid;
+    border-color: #fff;
+    cursor:pointer;
+    position:absolute;
+    background: transparent;
+    border-radius: 6px;
+    border-width: 1px;
+    height: 7%;
+}
+.btn2{
+    cursor:pointer;
+    width:83%;
+    top:579px;
+    left:42px;
+    position:absolute;
+    text-decoration: none;
+    border-style:solid;
+    border-color: #fff;
+    cursor:pointer;
+    position:absolute;
+    background: transparent;
+    border-radius: 6px;
+    border-width: 1px;
+    height: 7%;
+}
+.btn3{
+    cursor:pointer;
+    width:83%;
+    height: 7%;
+    top:646px;
+    left:42px;
+    position:absolute;
+    text-decoration: none;
+    border-style:solid;
+    border-color: #fff;
+    cursor:pointer;
+    position:absolute;
+    background: transparent;
+    border-radius: 6px;
+    border-width: 1px;
+    
+}
+.btn:hover {
+    opacity: 0.8;
+}
+.submit{
+    border:none;
+    cursor:pointer;
+    width:50%;
+    top:424px;
+    left:50px;
+    position:absolute;
+}
+.forgot{
+    top: 290px;
+    left:312px;
+    position:absolute;
+    color:#5FE19B;
+    font-family: 'Open Sans';
+    text-decoration: none;
+    font-weight: 100;
+}
+.line1{
+    width:35%;
+    top:480px;
+    left: 46px;
+    position: absolute;
+    color:#C4C4C4;
+    border:none;
+    height: 1.2px;
+    background-color:#666;
+    opacity: 1;
+}
+.or{
+    position:absolute;
+    top:468px;
+    left:238px;
+    color:#838080;
+    font-family: 'Open Sans';
+    font-size:1em;
+}
+.line2{
+    width:35%;
+    top:480px;
+    left:274px;
+    position: absolute;
+    color:#C4C4C4;
+    border:none;
+    height: 1.2px;
+    background-color:#666;
+    opacity: 1;
+}
+.bgnav{
+    position:absolute;
+    bottom:-12%;
+    left:6%;
+    opacity:50%;
+    height: 128%;
+    width:88%;
+}
+@media only screen and (max-width: 1400px){
+    .name{
+        font-family: 'Exo', sans-serif;
+        font-size: 3em;
+        margin: 12;
+        position: absolute;
+        top:18px;
+        left: 56px;
+        z-index: 3;
+    }
+    .form{
+        width: 320px;
+        height:480px;
+        background: rgba(0,0,0,0.8);
+        position:absolute;
+        top:10%;
+        left:70%;
+        border-radius: 14px;
+        padding: 25px;
+        z-index:2;
+    }
+
+    input[type=email] {
+        width: 81%;
+        HEIGHT:8%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        font-family: 'Exo';
+        font-weight:400;
+        font-size: 11px;
+        border-radius: 4px;
+        position:absolute;
+        top: 72px;
+        left:32px;
+    }
+    input[type=password]{
+        width: 81%;
+        height:8%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        font-family: 'Exo';
+        font-weight:400;
+        font-size: 11px;
+        border-radius: 4px;
+        position:absolute;
+        top: 117px;
+        left:32px;
+    }
+    .img{
+        position:absolute;
+        width: 27px;
+        height: 21px;
+        top: 33%;
+        left:83%;
+    }
+    .email.sucess input {
+        border-color: #2ecc71;
+    }
+    .email.error input {
+        border-color: #e74c3c;
+    }
+    form i {
+        margin-left: -31px;
+        cursor: pointer;
+        position:absolute;
+        top:28.5%;
+        left:94%;
+        height:50px;
+        width:50px;
+        color:green;
+    }
+
+    #checkb {
+        width: 17px;
+        height: 17px;
+        cursor: pointer;
+        background:transparent;
+        color:rgb(236, 236, 236);
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border: none;
+        position: relative;
+        left: 4px;
+        top: 7px;
+        border: solid white;
+        border-radius: 4px;
+        border-width: 1.8px 1.8px 1.8px 1.8px;
+    }
+
+
+    #checkb:checked {
+        background-image: url(./img/Vectoractualtick.svg);
+        background-size: 16px;
+        background-color: #36B972;
+        width: 17px;
+        height: 17px;
+    }
+    label[for=rememberMe]{
+        top: 171px;
+        left:58px;
+        height:15%;
+        width:68%;
+        position:absolute;
+        color:#fff;
+        font-family: 'Exo';
+        font-size: .65em;
+    }
+    .forgot{
+        top: 171px;
+        left:183px;
+        position:absolute;
+        color:#5FE19B;
+        font-family: 'Open Sans';
+        text-decoration: none;
+        font-weight: 100;
+        font-size: 0.7em;
+    }
+
+    .checkbox-container {
+        position: absolute;
+        display: inline-block;
+        margin: 20px;
+        width: 100px;
+        height: 100px;
+        top:141px;
+        left:9px;
+        overflow: hidden;
+    }
+    .mark:after {
+        left: 8px;
+        bottom: 5px;
+        width: 6px;
+        height: 12px;
+        border: solid white;
+        border-width: 0 4px 4px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    .wlc{
+        font-family: 'Exo';
+        font-weight:700;
+        font-size: .8em;
+        line-height: 26.58px;
+        color:#fff;
+        top: 18px;
+        left:69px;
+        position:absolute;
+        
+        }
+    .lgin{
+    font-family: 'Exo';
+    font-weight:400;
+    font-size: .7em;
+    line-height: 21.26px;
+    color:#fff;
+    top: 44px;
+    left:44px;
+    position:absolute;
+    }
+    .btn{
+        border:none;
+        cursor:pointer;
+        width: 81%;
+        height:8%;
+        top:200px;
+        left:32px;
+        position:absolute;
+        border-radius: 6px;
+        background-color: #4CC986;
+    }
+    .b{
+        text-decoration: none;
+        color:#fff;
+        font-family: 'Exo';
+        font-weight: 700;
+    }
+    label[for=registered]{
+        top: 248px;
+        left:72px;
+        height:15%;
+        width:68%;
+        position:absolute;
+        color:#fff;
+        font-family: 'Open Sans';
+        font-size:0.7em;
+    }
+    .register{
+        top: 248px;
+        left:172px;
+        font-size: .7em;
+        position:absolute;
+        color:#5FE19B;
+        font-family: 'Open Sans';
+        text-decoration: none;
+        font-weight: 100;
+    }
+
+    .fpic {
+        position: absolute;
+        top: 8px;
+        left:47px;
+        height:17px;
+    }
+    .tpic {
+        position: absolute;
+        top:8px;
+        left:47px;
+        height:17px;
+    }
+    .gpic {
+        position: absolute;
+        top:8px;
+        left:47px;
+        height:17px;
+    }
+    .facebook{
+        text-decoration: none;
+        color:#fff;
+        font-family: 'Exo';
+        font-weight: 700;
+        left:83px;
+        position:absolute;
+        top:10px;
+        font-size:.9em;
+
+
+    }
+    .twitter{
+        text-decoration: none;
+        color:#fff;
+        font-family: 'Exo';
+        font-weight: 700;
+        position:absolute;
+        left:83px;
+        top:10px;
+        font-size:.9em;
+    }
+    .google{
+        text-decoration: none;
+        color:#fff;
+        font-family: 'Exo';
+        font-weight: 700;
+        left:83px;
+        position:absolute;
+        top:10px;
+        font-size:.9em;
+
+    }
+
+    .btn1{
+        cursor:pointer;
+        width:81%;
+        top:299px;
+        left:36px;
+        position:absolute;
+        text-decoration: none;
+        border-style:solid;
+        border-color: #fff;
+        cursor:pointer;
+        position:absolute;
+        background: transparent;
+        border-radius: 6px;
+        border-width: 1px;
+        height: 8%;
+    }
+    .btn2{
+        cursor:pointer;
+        width:81%;
+        top:349px;
+        left:36px;
+        position:absolute;
+        text-decoration: none;
+        border-style:solid;
+        border-color: #fff;
+        cursor:pointer;
+        position:absolute;
+        background: transparent;
+        border-radius: 6px;
+        border-width: 1px;
+        height: 8%;
+    }
+    .btn3{
+        cursor:pointer;
+        width:81%;
+        top:400px;
+        left:36px;
+        position:absolute;
+        text-decoration: none;
+        border-style:solid;
+        border-color: #fff;
+        cursor:pointer;
+        position:absolute;
+        background: transparent;
+        border-radius: 6px;
+        border-width: 1px;
+        height: 8%;
+    }
+    .btn:hover {
+        opacity: 0.8;
+    }
+    .submit{
+        border:none;
+        cursor:pointer;
+        width:50%;
+        top:424px;
+        left:50px;
+        position:absolute;
+    }
+
+    .line1{
+        width:30%;
+        top:282px;
+        left: 38px;
+        position: absolute;
+        color:#C4C4C4;
+        border:none;
+        height: 1.2px;
+        background-color:#666;
+        opacity: 1;
+    }
+    .or{
+        position:absolute;
+        top:272px;
+        left:153px;
+        color:#838080;
+        font-family: 'Open Sans';
+        font-size:.8em;
+    }
+    .line2{
+        width:30%;
+        top:282px;
+        left:186px;
+        position: absolute;
+        color:#C4C4C4;
+        border:none;
+        height: 1.2px;
+        background-color:#666;
+        opacity: 1;
+    }
+    .bgnav{
+        position:absolute;
+        bottom:-12%;
+        left:6%;
+        opacity:50%;
+        height: 128%;
+        width:88%;
+    }
+}
